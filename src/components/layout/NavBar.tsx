@@ -5,6 +5,7 @@ export default function NavBar() {
   return (
     <nav className="container navbar">
       <Link to="/">Home</Link>
+      <Link to="/user/select">Login</Link>
     </nav>
   )
 }
